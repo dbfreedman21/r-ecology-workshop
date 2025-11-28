@@ -89,4 +89,6 @@ ggplot(data = complete_old, mapping = aes(x = weight, y = hindfoot_length, color
   #geom_point(alpha = 0.2)
 
 #Changing Scales
+#The default discrete color scale isn’t always ideal: it isn’t friendly to viewers with colorblindness and it doesn’t translate well to grayscale. However, ggplot2 comes with quite a few other color scales, including the fantastic viridis scales, which are designed to be colorblind and grayscale friendly. We can change scales by adding scale_ functions to our plots:
+
 
